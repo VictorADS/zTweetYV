@@ -1,0 +1,104 @@
+#content {
+	margin: auto;
+	width: 1350px;
+}
+
+.middle {
+	margin: auto;
+	width: 800px;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+
+#changeparam {
+	width: 800px;
+	background: white;
+	border: 1px solid #DFDFE6;
+	border-radius: 5px;
+}
+
+#changeparam p {
+	margin-left: 20px;
+}
+
+.Annonce {
+	height: 50px;
+}
+
+.succes {
+	height: 50px;
+	background: #F7E8BC;
+}
+
+.succes h4 {
+	margin: 0px;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+
+.succes .icone {
+	float: right;
+	padding: 10px;
+	cursor:pointer;
+	height:13px;
+	width:13px;
+	background:url('images/croix.png') no-repeat;
+	margin-top:3px;
+}
+
+.change {
+	padding-left: 50px;
+	padding-top: 20px;
+	border-top: 1px solid #DFDFE6;
+}
+
+.change p {
+	margin-left: 50px;
+	width: 160px;
+	display: inline-block;
+}
+
+.change input {
+	display: inline-block;
+	margin-left: 10px;
+	width: 298px;
+	padding: 1px;
+	border: 2px solid #DFDFE6;
+	border-radius: 3px;
+}
+
+.change input:hover {
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.subutton {
+	margin-top: 10px;
+	margin-left: 248px;
+}
+
+.subutton input {
+	width: 300px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+	border: 1px solid #52A7E7;
+	border-radius: 3px;
+	background: #1E90FF;
+	cursor: pointer;
+}
+
+#deletediv {
+	margin-top: 30px;
+	border-top: 1px solid #DFDFE6;
+}
+
+.deltag {
+	margin-left: 248px;
+	color: rgb(0, 132, 180);
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.deltag:hover {
+	text-decoration: underline;
+}

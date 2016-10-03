@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #C0DEED;
+	font-size: 16px;
+	font-family: Helvetica Neue;
+}
+
+input {
+	font-size: 16px;
+	font-family: Helvetica Neue;
+}
+
+textarea {
+	font-size: 16px;
+	font-family: Helvetica Neue;
+}
+
+#wrapper {
+	margin: 0px;
+	width: 100%;
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: auto 162px;
+}
+
+#errortweet {
+	position: fixed;
+	z-index: 999;
+	left: 0px;
+	right: 0px;
+	top: 75px;
+}
+
+#errortweet .errorcontain {
+	width: 700px;
+	margin: 0px auto;
+	border: 2px solid #DFDFE6;
+	opacity: 0.9;
+	background: white;
+}
+
+#errortweet .message {
+	text-align: center;
+	padding: 20px;
+}
+
+#errortweet .hide {
+	float: right;
+}
+
+#fixe {
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	padding-top: 8px;
+	height: 50px;
+	background: white;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+	width: 1300px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+	margin: 10px auto;
+	width: 250px;
+	display: inline-block;
+}
+
+#logo a {
+	display: block;
+	height: 20px;
+	width: 110px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	border: solid;
+	border-color: white;
+	cursor: pointer;
+}
+
+#logo .tohighlight {
+	border-bottom-color: green;
+	color: green;
+	border-width: 3px;
+}
+
+#logo .nothightlight:hover {
+	border-bottom-color: blue;
+	color: blue;
+	border-width: 3px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: auto;
+}
+
+.spanleft {
+	margin: 10px auto;
+	width: 250px;
+	margin-left: 25px;
+	display: inline-block;
+	border: 2px solid #DFDFE6;
+	border-radius: 5px;
+}
+
+.spanleft ul input {
+	display: block;
+	width: 228px;
+	float: left;
+	border: none;
+	padding: 1px;
+}
+
+.spanleft ul input:hover {
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.spanleft ul a {
+	background-image: url('images/Search.png');
+	float: right;
+	display: block;
+	cursor: pointer;
+	padding: 1px;
+	width: 17px;
+	background-repeat: no-repeat;
+	height: 17px;
+	background-position: center;
+}
+
+.checkbox {
+	display: inline-block;
+	margin: 10px auto;
+	vertical-align: bottom;
+}
+
+.spanright {
+	margin: 10px auto;
+	float: right;
+	width: 300px;
+	display: inline-block;
+}
+
+.spanright ul a {
+	display: block;
+	height: 20px;
+	float: left;
+	width: 140px;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	border: solid;
+	border-color: white;
+	cursor: pointer;
+}
+
+.spanright ul a:hover {
+	border-bottom-color: red;
+	color: red;
+	border-width: 3px;
+}
+#commcontainer {
+	background: white;
+	border: 1px solid #DFDFE6;
+	border-radius: 5px;
+}
+
+.comm {
+	width: 100%;
+	height: 125px;
+	border-top: 1px solid #DFDFE6;
+}
+
+.namedate {
+	padding-top: 5px;
+	margin-left: 20px;
+}
+
+.namedate a {
+	text-decoration: none;
+}
+
+.namedate span {
+	float: right;
+	margin-right: 20px;
+	padding-top: 5px;
+}
+
+.text {
+	margin-left: 20px;
+}
+
+.buttonbottom a {
+	float: right;
+	margin-right: 10px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.notfound p {
+	margin-left: 20px;
+}
+.go_top{
+	background:url('images/scroll.png');
+    position: fixed;
+    display:none;
+    bottom: 100px;
+    height:64px;
+    width:64px;               
+    right: 50px;            
+
+}

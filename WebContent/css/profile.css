@@ -1,0 +1,23 @@
+
+#content {
+	margin: auto;
+	width: 1350px;
+}
+
+.left {
+	text-align: center;
+	float:left;
+	width: 280px;
+	margin-top: 70px;
+	margin-left: auto;
+	border: 1px solid #DFDFE6;
+	border-radius: 5px;
+	background: white;
+}
+
+.middle {
+	margin: auto;
+	width: 800px;
+	padding-left: 50px;
+	padding-top: 70px;
+}

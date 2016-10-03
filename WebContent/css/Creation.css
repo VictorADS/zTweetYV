@@ -1,0 +1,121 @@
+body {
+	font-size: 16px;
+	margin: 0;
+	font-family: Helvetica Neue;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0px;
+	background: url('images/twit.jpg') no-repeat;
+	background-position: center 0px;
+	background-size: auto 1200px;
+	height: 1200px;
+}
+
+#top {
+	width: 100%;
+	background: white;
+	margin-bottom: 10px;
+}
+
+.topcontent {
+	margin: auto;
+	width: 1100px;
+}
+
+.topcontent>input {
+	height: 35px;
+	background: white;
+	border: solid;
+	border-color: white;
+}
+
+.topcontent>input:hover {
+	border-bottom-color: red;
+	color: red;
+	border-width: 3px;
+}
+
+#main {
+	width: 800px;
+	margin: auto;
+	border: 3px solid #F4F4F4;
+	border-radius: 5px;
+	background: white;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 2px;
+}
+
+.erreurajax {
+	margin-left: 15%;
+}
+
+.identifiant {
+	margin-left: 15%;
+}
+
+.tableauid {
+	margin-left: 15%;
+}
+
+.tableauid input:hover,.identifiant input:hover {
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.tableauid>input {
+	margin-top: 0.5em;
+	position: relative;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: #DFDFE6;
+	margin-bottom: 10px;
+	height: 2em;
+	width: 29%;
+	border-radius: 3px;
+}
+
+.identifiant>input {
+	margin-top: 0.5em;
+	position: relative;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: #DFDFE6;
+	margin-bottom: 10px;
+	height: 2em;
+	width: 60%;
+	border-radius: 3px;
+}
+
+input {
+	background-image: url('images/invalid.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+}
+
+.buttons {
+	margin-top: 0.1em;
+	margin-left: 20%;
+}
+
+.buttons>input:hover {
+	box-shadow: -1px -10px 40px 30px #4994CD inset;
+}
+
+.buttons>input {
+	margin: 1em 1em 1em 15%;
+	width: 40%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+	border: 1px solid #52A7E7;
+	border-radius: 3px;
+	background: #1E90FF;
+}

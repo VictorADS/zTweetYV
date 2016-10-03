@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<HTML>
+<title>Création d'un Compte</title>
+<HEAD>
+<meta charset="utf-8" />
+<!--Lien vers la mise en page CSS-->
+<link href="css/Creation.css" rel="stylesheet" TYPE="text/css">
+<!--Lien vers JQuerry-->
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<!--Lien vers le javaScript-->
+<script type="text/javascript" src="js/Creation.js"></script>
+
+<meta name="viewport" content="width=device-width" />
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>  uTILISER a la place du script jquery-->
+</HEAD>
+
+<BODY>
+	<div id="wrapper">
+		<div id="top">
+			<div class="topcontent">
+				<input type="button" value="Accueil"
+					onClick="window.location.href='main.html'">
+			</div>
+		</div>
+		<div id="main">
+			<form id="formulaire" name="inscription" action=""
+				onsubmit="return applyform(this)" method="get">
+				<h2>Création de votre compte</h2>
+				<div class="erreurajax"></div>
+				<div class="tableauid">
+					<input type="text" maxlength="20" name="Nom"
+						placeholder="Nom de famille"> <input type="text"
+						maxlength="20" name="Prenom" placeholder="Prenom">
+
+				</div>
+
+				<div class="identifiant">
+					<input type="text" name="Login" maxlength="20" placeholder="Login">
+					<input type="text" name="Mail" maxlength="40"
+						placeholder="Entrez votre mail"> <input type="password"
+						name="Mdp" maxlength="20" placeholder="Mot de passe"> <input
+						type="password" name="Mdpverif" maxlength="20"
+						placeholder="Confirmer votre mot de passe">
+				</div>
+
+
+				<div class="buttons">
+					<input type="submit" value="Inscription" />
+
+				</div>
+			</form>
+		</div>
+	</div>
+</BODY>
+
+</HTML>
+

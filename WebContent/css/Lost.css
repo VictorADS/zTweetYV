@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+	margin: 0;
+	width: 100%;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0px;
+	background: url('images/twit.jpg') no-repeat;
+	background-position: center 0px;
+	background-size: auto 1200px;
+	height: 1200px;
+	padding-top: 10px;
+}
+
+#main {
+	margin: auto;
+	width: 600px;
+	border-width: 3px;
+	border-color: #F4F4F4;
+	border-style: solid;
+	border-radius: 5px;
+	background: white;
+	font-family: Helvetica Neue;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 2px;
+}
+
+.erreurajax {
+	margin-left: 90px;
+}
+
+.mail {
+	margin-left: 90px;
+}
+input{
+	font-family:Helvetica Neue;
+	font-size:16px;
+}
+.mail>input {
+	margin-top: 0.9em;
+	position: relative;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: #DFDFE6;
+	margin-bottom: 10px;
+	height: 2em;
+	width: 410px;
+	border-radius: 3px;
+}
+
+.mail>input:hover {
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.buttons {
+	margin-top: 1em;
+}
+
+
+
+.buttons>input {
+	margin: 1em 1em 1em 90px;
+	width: 150px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+	border: 1px solid #52A7E7;
+	border-radius: 3px;
+	background: #1E90FF;
+	font-family: Helvetica Neue;
+	font-size: 19px;
+}
